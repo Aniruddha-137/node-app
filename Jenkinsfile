@@ -5,7 +5,7 @@ pipeline {
         AWS_REGION = "ap-south-1"
         ECR_REPO = "494249241129.dkr.ecr.ap-south-1.amazonaws.com/demo-repo"
         IMAGE_NAME = "demo-node"
-        IMAGE_TAG = "${BUILD_NUMBER}"
+        IMAGE_TAG = "latest"
 
         BASTION_HOST = "13.233.227.235"
         BASTION_USER = "deployagent"
