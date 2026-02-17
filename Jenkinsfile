@@ -10,8 +10,8 @@ pipeline {
         BASTION_HOST = "13.233.227.235"
         BASTION_USER = "deployagent"
 
-        REMOTE_APP_DIR = "/home/dev/node-app"
-        MANIFEST = "/home/dev/kubernetes-manifest/demo-node.yaml"
+        REMOTE_APP_DIR = "/home/deployagent/node-app"
+        MANIFEST = "/home/deployagent/kubernetes-manifest/demo-node.yaml"
     }
 
     stages {
