@@ -1,0 +1,13 @@
+{
+  "name": "simple-node-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js 20 App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
