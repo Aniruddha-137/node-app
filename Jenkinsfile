@@ -97,10 +97,10 @@ pipeline {
                         sed -i 's|image:.*|image: $ECR_REPO:$IMAGE_TAG|' $MANIFEST
 
                         echo 'Deploying to EKS'
-                        kubectl apply -f $MANIFEST
+                        #kubectl apply -f $MANIFEST
 
                         echo 'Waiting for rollout'
-                        kubectl rollout status deployment/demo-node
+                        kubectl rollout restart deployment/demo-node
                     "
                     '''
                 }
